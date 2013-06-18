@@ -1,10 +1,10 @@
-// megafunction wizard: %RAM: 1-PORT%VBB%
+// megafunction wizard: %RAM: 1-PORT%
 // GENERATION: STANDARD
 // VERSION: WM1.0
 // MODULE: altsyncram 
 
 // ============================================================
-// File Name: myram.v
+// File Name: AddrRAM1.v
 // Megafunction Name(s):
 // 			altsyncram
 //
@@ -16,6 +16,7 @@
 //
 // 12.1 Build 177 11/07/2012 SJ Full Version
 // ************************************************************
+
 
 //Copyright (C) 1991-2012 Altera Corporation
 //Your use of Altera Corporation's design tools, logic functions 
@@ -31,25 +32,79 @@
 //Altera or its authorized distributors.  Please refer to the 
 //applicable agreement for further details.
 
-module myram (
+
+// synopsys translate_off
+`timescale 1 ps / 1 ps
+// synopsys translate_on
+module AddrRAM1 (
 	address,
 	clock,
 	data,
+	rden,
 	wren,
 	q);
 
-	input	[13:0]  address;
+	input	[6:0]  address;
 	input	  clock;
-	input	[15:0]  data;
+	input	[22:0]  data;
+	input	  rden;
 	input	  wren;
-	output	[15:0]  q;
+	output	[22:0]  q;
 `ifndef ALTERA_RESERVED_QIS
 // synopsys translate_off
 `endif
 	tri1	  clock;
+	tri1	  rden;
 `ifndef ALTERA_RESERVED_QIS
 // synopsys translate_on
 `endif
+
+	wire [22:0] sub_wire0;
+	wire [22:0] q = sub_wire0[22:0];
+
+	altsyncram	altsyncram_component (
+				.address_a (address),
+				.clock0 (clock),
+				.data_a (data),
+				.wren_a (wren),
+				.rden_a (rden),
+				.q_a (sub_wire0),
+				.aclr0 (1'b0),
+				.aclr1 (1'b0),
+				.address_b (1'b1),
+				.addressstall_a (1'b0),
+				.addressstall_b (1'b0),
+				.byteena_a (1'b1),
+				.byteena_b (1'b1),
+				.clock1 (1'b1),
+				.clocken0 (1'b1),
+				.clocken1 (1'b1),
+				.clocken2 (1'b1),
+				.clocken3 (1'b1),
+				.data_b (1'b1),
+				.eccstatus (),
+				.q_b (),
+				.rden_b (1'b1),
+				.wren_b (1'b0));
+	defparam
+		altsyncram_component.clock_enable_input_a = "BYPASS",
+		altsyncram_component.clock_enable_output_a = "BYPASS",
+		altsyncram_component.init_file = "128_Addr_1.mif",
+		altsyncram_component.intended_device_family = "Cyclone III",
+		altsyncram_component.lpm_hint = "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=ADDR",
+		altsyncram_component.lpm_type = "altsyncram",
+		altsyncram_component.maximum_depth = 256,
+		altsyncram_component.numwords_a = 128,
+		altsyncram_component.operation_mode = "SINGLE_PORT",
+		altsyncram_component.outdata_aclr_a = "NONE",
+		altsyncram_component.outdata_reg_a = "CLOCK0",
+		altsyncram_component.power_up_uninitialized = "FALSE",
+		altsyncram_component.ram_block_type = "M9K",
+		altsyncram_component.read_during_write_mode_port_a = "NEW_DATA_NO_NBE_READ",
+		altsyncram_component.widthad_a = 7,
+		altsyncram_component.width_a = 23,
+		altsyncram_component.width_byteena_a = 1;
+
 
 endmodule
 
@@ -73,52 +128,56 @@ endmodule
 // Retrieval info: PRIVATE: INIT_TO_SIM_X NUMERIC "0"
 // Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 // Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "1"
-// Retrieval info: PRIVATE: JTAG_ID STRING "1K_8"
-// Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
-// Retrieval info: PRIVATE: MIFfilename STRING "myram.mif"
-// Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "16384"
-// Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
+// Retrieval info: PRIVATE: JTAG_ID STRING "ADDR"
+// Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "256"
+// Retrieval info: PRIVATE: MIFfilename STRING "128_Addr_1.mif"
+// Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "128"
+// Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "2"
 // Retrieval info: PRIVATE: READ_DURING_WRITE_MODE_PORT_A NUMERIC "3"
 // Retrieval info: PRIVATE: RegAddr NUMERIC "1"
 // Retrieval info: PRIVATE: RegData NUMERIC "1"
-// Retrieval info: PRIVATE: RegOutput NUMERIC "0"
+// Retrieval info: PRIVATE: RegOutput NUMERIC "1"
 // Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 // Retrieval info: PRIVATE: SingleClock NUMERIC "1"
 // Retrieval info: PRIVATE: UseDQRAM NUMERIC "1"
 // Retrieval info: PRIVATE: WRCONTROL_ACLR_A NUMERIC "0"
-// Retrieval info: PRIVATE: WidthAddr NUMERIC "14"
-// Retrieval info: PRIVATE: WidthData NUMERIC "16"
-// Retrieval info: PRIVATE: rden NUMERIC "0"
+// Retrieval info: PRIVATE: WidthAddr NUMERIC "7"
+// Retrieval info: PRIVATE: WidthData NUMERIC "23"
+// Retrieval info: PRIVATE: rden NUMERIC "1"
 // Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 // Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
-// Retrieval info: CONSTANT: INIT_FILE STRING "myram.mif"
+// Retrieval info: CONSTANT: INIT_FILE STRING "128_Addr_1.mif"
 // Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
-// Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=1K_8"
+// Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=ADDR"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
-// Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "16384"
+// Retrieval info: CONSTANT: MAXIMUM_DEPTH NUMERIC "256"
+// Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "128"
 // Retrieval info: CONSTANT: OPERATION_MODE STRING "SINGLE_PORT"
 // Retrieval info: CONSTANT: OUTDATA_ACLR_A STRING "NONE"
-// Retrieval info: CONSTANT: OUTDATA_REG_A STRING "UNREGISTERED"
+// Retrieval info: CONSTANT: OUTDATA_REG_A STRING "CLOCK0"
 // Retrieval info: CONSTANT: POWER_UP_UNINITIALIZED STRING "FALSE"
+// Retrieval info: CONSTANT: RAM_BLOCK_TYPE STRING "M9K"
 // Retrieval info: CONSTANT: READ_DURING_WRITE_MODE_PORT_A STRING "NEW_DATA_NO_NBE_READ"
-// Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "14"
-// Retrieval info: CONSTANT: WIDTH_A NUMERIC "16"
+// Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "7"
+// Retrieval info: CONSTANT: WIDTH_A NUMERIC "23"
 // Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
-// Retrieval info: USED_PORT: address 0 0 14 0 INPUT NODEFVAL "address[13..0]"
+// Retrieval info: USED_PORT: address 0 0 7 0 INPUT NODEFVAL "address[6..0]"
 // Retrieval info: USED_PORT: clock 0 0 0 0 INPUT VCC "clock"
-// Retrieval info: USED_PORT: data 0 0 16 0 INPUT NODEFVAL "data[15..0]"
-// Retrieval info: USED_PORT: q 0 0 16 0 OUTPUT NODEFVAL "q[15..0]"
+// Retrieval info: USED_PORT: data 0 0 23 0 INPUT NODEFVAL "data[22..0]"
+// Retrieval info: USED_PORT: q 0 0 23 0 OUTPUT NODEFVAL "q[22..0]"
+// Retrieval info: USED_PORT: rden 0 0 0 0 INPUT VCC "rden"
 // Retrieval info: USED_PORT: wren 0 0 0 0 INPUT NODEFVAL "wren"
-// Retrieval info: CONNECT: @address_a 0 0 14 0 address 0 0 14 0
+// Retrieval info: CONNECT: @address_a 0 0 7 0 address 0 0 7 0
 // Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
-// Retrieval info: CONNECT: @data_a 0 0 16 0 data 0 0 16 0
+// Retrieval info: CONNECT: @data_a 0 0 23 0 data 0 0 23 0
+// Retrieval info: CONNECT: @rden_a 0 0 0 0 rden 0 0 0 0
 // Retrieval info: CONNECT: @wren_a 0 0 0 0 wren 0 0 0 0
-// Retrieval info: CONNECT: q 0 0 16 0 @q_a 0 0 16 0
-// Retrieval info: GEN_FILE: TYPE_NORMAL myram.v TRUE
-// Retrieval info: GEN_FILE: TYPE_NORMAL myram.inc FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL myram.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL myram.bsf FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL myram_inst.v FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL myram_bb.v TRUE
+// Retrieval info: CONNECT: q 0 0 23 0 @q_a 0 0 23 0
+// Retrieval info: GEN_FILE: TYPE_NORMAL AddrRAM1.v TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL AddrRAM1.inc FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL AddrRAM1.cmp FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL AddrRAM1.bsf FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL AddrRAM1_inst.v TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL AddrRAM1_bb.v TRUE
 // Retrieval info: LIB_FILE: altera_mf
