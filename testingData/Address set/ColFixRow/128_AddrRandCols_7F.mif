@@ -1,0 +1,152 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=128;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   00007F;
+	1    :   01007F;
+	2    :   02007F;
+	3    :   03007F;
+	4    :   04007F;
+	5    :   05007F;
+	6    :   06007F;
+	7    :   07007F;
+	8    :   38107F;
+	9    :   39107F;
+	10   :   3A107F;
+	11   :   3B107F;
+	12   :   3C107F;
+	13   :   3D107F;
+	14   :   3E107F;
+	15   :   3F107F;
+	16   :   10007F;
+	17   :   11007F;
+	18   :   12007F;
+	19   :   13007F;
+	20   :   14007F;
+	21   :   15007F;
+	22   :   16007F;
+	23   :   17007F;
+	24   :   20007F;
+	25   :   21007F;
+	26   :   22007F;
+	27   :   23007F;
+	28   :   24007F;
+	29   :   25007F;
+	30   :   26007F;
+	31   :   27007F;
+	32   :   08007F;
+	33   :   09007F;
+	34   :   0A007F;
+	35   :   0B007F;
+	36   :   0C007F;
+	37   :   0D007F;
+	38   :   0E007F;
+	39   :   0F007F;
+	40   :   38007F;
+	41   :   39007F;
+	42   :   3A007F;
+	43   :   3B007F;
+	44   :   3C007F;
+	45   :   3D007F;
+	46   :   3E007F;
+	47   :   3F007F;
+	48   :   28007F;
+	49   :   29007F;
+	50   :   2A007F;
+	51   :   2B007F;
+	52   :   2C007F;
+	53   :   2D007F;
+	54   :   2E007F;
+	55   :   2F007F;
+	56   :   30007F;
+	57   :   31007F;
+	58   :   32007F;
+	59   :   33007F;
+	60   :   34007F;
+	61   :   35007F;
+	62   :   36007F;
+	63   :   37007F;
+	64   :   18007F;
+	65   :   19007F;
+	66   :   1A007F;
+	67   :   1B007F;
+	68   :   1C007F;
+	69   :   1D007F;
+	70   :   1E007F;
+	71   :   1F007F;
+	72   :   08107F;
+	73   :   09107F;
+	74   :   0A107F;
+	75   :   0B107F;
+	76   :   0C107F;
+	77   :   0D107F;
+	78   :   0E107F;
+	79   :   0F107F;
+	80   :   30107F;
+	81   :   31107F;
+	82   :   32107F;
+	83   :   33107F;
+	84   :   34107F;
+	85   :   35107F;
+	86   :   36107F;
+	87   :   37107F;
+	88   :   00107F;
+	89   :   01107F;
+	90   :   02107F;
+	91   :   03107F;
+	92   :   04107F;
+	93   :   05107F;
+	94   :   06107F;
+	95   :   07107F;
+	96   :   10107F;
+	97   :   11107F;
+	98   :   12107F;
+	99   :   13107F;
+	100  :   14107F;
+	101  :   15107F;
+	102  :   16107F;
+	103  :   17107F;
+	104  :   28107F;
+	105  :   29107F;
+	106  :   2A107F;
+	107  :   2B107F;
+	108  :   2C107F;
+	109  :   2D107F;
+	110  :   2E107F;
+	111  :   2F107F;
+	112  :   18107F;
+	113  :   19107F;
+	114  :   1A107F;
+	115  :   1B107F;
+	116  :   1C107F;
+	117  :   1D107F;
+	118  :   1E107F;
+	119  :   1F107F;
+	120  :   20107F;
+	121  :   21107F;
+	122  :   22107F;
+	123  :   23107F;
+	124  :   24107F;
+	125  :   25107F;
+	126  :   26107F;
+	127  :   27107F;
+END;

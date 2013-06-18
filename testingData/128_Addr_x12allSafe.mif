@@ -1,0 +1,153 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=12;
+DEPTH=2048;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	[000..001]  :   000;
+	002  :   010;
+	003  :   020;
+	004  :   030;
+	005  :   040;
+	006  :   050;
+	007  :   060;
+	008  :   070;
+	009  :   381;
+	00A  :   391;
+	00B  :   3A1;
+	00C  :   3B1;
+	00D  :   3C1;
+	00E  :   3D1;
+	00F  :   3E1;
+	010  :   3F1;
+	011  :   100;
+	012  :   110;
+	013  :   120;
+	014  :   130;
+	015  :   140;
+	016  :   150;
+	017  :   160;
+	018  :   170;
+	019  :   200;
+	01A  :   210;
+	01B  :   220;
+	01C  :   230;
+	01D  :   240;
+	01E  :   250;
+	01F  :   260;
+	020  :   270;
+	021  :   080;
+	022  :   090;
+	023  :   0A0;
+	024  :   0B0;
+	025  :   0C0;
+	026  :   0D0;
+	027  :   0E0;
+	028  :   0F0;
+	029  :   380;
+	02A  :   390;
+	02B  :   3A0;
+	02C  :   3B0;
+	02D  :   3C0;
+	02E  :   3D0;
+	02F  :   3E0;
+	030  :   3F0;
+	031  :   280;
+	032  :   290;
+	033  :   2A0;
+	034  :   2B0;
+	035  :   2C0;
+	036  :   2D0;
+	037  :   2E0;
+	038  :   2F0;
+	039  :   300;
+	03A  :   310;
+	03B  :   320;
+	03C  :   330;
+	03D  :   340;
+	03E  :   350;
+	03F  :   360;
+	040  :   370;
+	041  :   180;
+	042  :   190;
+	043  :   1A0;
+	044  :   1B0;
+	045  :   1C0;
+	046  :   1D0;
+	047  :   1E0;
+	048  :   1F0;
+	049  :   081;
+	04A  :   091;
+	04B  :   0A1;
+	04C  :   0B1;
+	04D  :   0C1;
+	04E  :   0D1;
+	04F  :   0E1;
+	050  :   0F1;
+	051  :   301;
+	052  :   311;
+	053  :   321;
+	054  :   331;
+	055  :   341;
+	056  :   351;
+	057  :   361;
+	058  :   371;
+	059  :   001;
+	05A  :   011;
+	05B  :   021;
+	05C  :   031;
+	05D  :   041;
+	05E  :   051;
+	05F  :   061;
+	060  :   071;
+	061  :   101;
+	062  :   111;
+	063  :   121;
+	064  :   131;
+	065  :   141;
+	066  :   151;
+	067  :   161;
+	068  :   171;
+	069  :   281;
+	06A  :   291;
+	06B  :   2A1;
+	06C  :   2B1;
+	06D  :   2C1;
+	06E  :   2D1;
+	06F  :   2E1;
+	070  :   2F1;
+	071  :   181;
+	072  :   191;
+	073  :   1A1;
+	074  :   1B1;
+	075  :   1C1;
+	076  :   1D1;
+	077  :   1E1;
+	078  :   1F1;
+	079  :   201;
+	07A  :   211;
+	07B  :   221;
+	07C  :   231;
+	07D  :   241;
+	07E  :   251;
+	07F  :   261;
+	080  :   271;
+	[081..7FF]  :   000;
+END;

@@ -1,0 +1,152 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=128;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   0000BF;
+	1    :   0100BF;
+	2    :   0200BF;
+	3    :   0300BF;
+	4    :   0400BF;
+	5    :   0500BF;
+	6    :   0600BF;
+	7    :   0700BF;
+	8    :   3810BF;
+	9    :   3910BF;
+	10   :   3A10BF;
+	11   :   3B10BF;
+	12   :   3C10BF;
+	13   :   3D10BF;
+	14   :   3E10BF;
+	15   :   3F10BF;
+	16   :   1000BF;
+	17   :   1100BF;
+	18   :   1200BF;
+	19   :   1300BF;
+	20   :   1400BF;
+	21   :   1500BF;
+	22   :   1600BF;
+	23   :   1700BF;
+	24   :   2000BF;
+	25   :   2100BF;
+	26   :   2200BF;
+	27   :   2300BF;
+	28   :   2400BF;
+	29   :   2500BF;
+	30   :   2600BF;
+	31   :   2700BF;
+	32   :   0800BF;
+	33   :   0900BF;
+	34   :   0A00BF;
+	35   :   0B00BF;
+	36   :   0C00BF;
+	37   :   0D00BF;
+	38   :   0E00BF;
+	39   :   0F00BF;
+	40   :   3800BF;
+	41   :   3900BF;
+	42   :   3A00BF;
+	43   :   3B00BF;
+	44   :   3C00BF;
+	45   :   3D00BF;
+	46   :   3E00BF;
+	47   :   3F00BF;
+	48   :   2800BF;
+	49   :   2900BF;
+	50   :   2A00BF;
+	51   :   2B00BF;
+	52   :   2C00BF;
+	53   :   2D00BF;
+	54   :   2E00BF;
+	55   :   2F00BF;
+	56   :   3000BF;
+	57   :   3100BF;
+	58   :   3200BF;
+	59   :   3300BF;
+	60   :   3400BF;
+	61   :   3500BF;
+	62   :   3600BF;
+	63   :   3700BF;
+	64   :   1800BF;
+	65   :   1900BF;
+	66   :   1A00BF;
+	67   :   1B00BF;
+	68   :   1C00BF;
+	69   :   1D00BF;
+	70   :   1E00BF;
+	71   :   1F00BF;
+	72   :   0810BF;
+	73   :   0910BF;
+	74   :   0A10BF;
+	75   :   0B10BF;
+	76   :   0C10BF;
+	77   :   0D10BF;
+	78   :   0E10BF;
+	79   :   0F10BF;
+	80   :   3010BF;
+	81   :   3110BF;
+	82   :   3210BF;
+	83   :   3310BF;
+	84   :   3410BF;
+	85   :   3510BF;
+	86   :   3610BF;
+	87   :   3710BF;
+	88   :   0010BF;
+	89   :   0110BF;
+	90   :   0210BF;
+	91   :   0310BF;
+	92   :   0410BF;
+	93   :   0510BF;
+	94   :   0610BF;
+	95   :   0710BF;
+	96   :   1010BF;
+	97   :   1110BF;
+	98   :   1210BF;
+	99   :   1310BF;
+	100  :   1410BF;
+	101  :   1510BF;
+	102  :   1610BF;
+	103  :   1710BF;
+	104  :   2810BF;
+	105  :   2910BF;
+	106  :   2A10BF;
+	107  :   2B10BF;
+	108  :   2C10BF;
+	109  :   2D10BF;
+	110  :   2E10BF;
+	111  :   2F10BF;
+	112  :   1810BF;
+	113  :   1910BF;
+	114  :   1A10BF;
+	115  :   1B10BF;
+	116  :   1C10BF;
+	117  :   1D10BF;
+	118  :   1E10BF;
+	119  :   1F10BF;
+	120  :   2010BF;
+	121  :   2110BF;
+	122  :   2210BF;
+	123  :   2310BF;
+	124  :   2410BF;
+	125  :   2510BF;
+	126  :   2610BF;
+	127  :   2710BF;
+END;

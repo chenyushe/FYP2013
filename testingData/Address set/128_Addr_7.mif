@@ -1,0 +1,152 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=128;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   00E000;
+	1    :   01E000;
+	2    :   02E000;
+	3    :   03E000;
+	4    :   04E000;
+	5    :   05E000;
+	6    :   06E000;
+	7    :   07E000;
+	8    :   38E000;
+	9    :   39E000;
+	10   :   3AE000;
+	11   :   3BE000;
+	12   :   3CE000;
+	13   :   3DE000;
+	14   :   3EE000;
+	15   :   3FE000;
+	16   :   10E000;
+	17   :   11E000;
+	18   :   12E000;
+	19   :   13E000;
+	20   :   14E000;
+	21   :   15E000;
+	22   :   16E000;
+	23   :   17E000;
+	24   :   20E000;
+	25   :   21E000;
+	26   :   22E000;
+	27   :   23E000;
+	28   :   24E000;
+	29   :   25E000;
+	30   :   26E000;
+	31   :   27E000;
+	32   :   08E000;
+	33   :   09E000;
+	34   :   0AE000;
+	35   :   0BE000;
+	36   :   0CE000;
+	37   :   0DE000;
+	38   :   0EE000;
+	39   :   0FE000;
+	40   :   38F000;
+	41   :   39F000;
+	42   :   3AF000;
+	43   :   3BF000;
+	44   :   3CF000;
+	45   :   3DF000;
+	46   :   3EF000;
+	47   :   3FF000;
+	48   :   28E000;
+	49   :   29E000;
+	50   :   2AE000;
+	51   :   2BE000;
+	52   :   2CE000;
+	53   :   2DE000;
+	54   :   2EE000;
+	55   :   2FE000;
+	56   :   30E000;
+	57   :   31E000;
+	58   :   32E000;
+	59   :   33E000;
+	60   :   34E000;
+	61   :   35E000;
+	62   :   36E000;
+	63   :   37E000;
+	64   :   18E000;
+	65   :   19E000;
+	66   :   1AE000;
+	67   :   1BE000;
+	68   :   1CE000;
+	69   :   1DE000;
+	70   :   1EE000;
+	71   :   1FE000;
+	72   :   08F000;
+	73   :   09F000;
+	74   :   0AF000;
+	75   :   0BF000;
+	76   :   0CF000;
+	77   :   0DF000;
+	78   :   0EF000;
+	79   :   0FF000;
+	80   :   30F000;
+	81   :   31F000;
+	82   :   32F000;
+	83   :   33F000;
+	84   :   34F000;
+	85   :   35F000;
+	86   :   36F000;
+	87   :   37F000;
+	88   :   00F000;
+	89   :   01F000;
+	90   :   02F000;
+	91   :   03F000;
+	92   :   04F000;
+	93   :   05F000;
+	94   :   06F000;
+	95   :   07F000;
+	96   :   10F000;
+	97   :   11F000;
+	98   :   12F000;
+	99   :   13F000;
+	100  :   14F000;
+	101  :   15F000;
+	102  :   16F000;
+	103  :   17F000;
+	104  :   28F000;
+	105  :   29F000;
+	106  :   2AF000;
+	107  :   2BF000;
+	108  :   2CF000;
+	109  :   2DF000;
+	110  :   2EF000;
+	111  :   2FF000;
+	112  :   18F000;
+	113  :   19F000;
+	114  :   1AF000;
+	115  :   1BF000;
+	116  :   1CF000;
+	117  :   1DF000;
+	118  :   1EF000;
+	119  :   1FF000;
+	120  :   20F000;
+	121  :   21F000;
+	122  :   22F000;
+	123  :   23F000;
+	124  :   24F000;
+	125  :   25F000;
+	126  :   26F000;
+	127  :   27F000;
+END;

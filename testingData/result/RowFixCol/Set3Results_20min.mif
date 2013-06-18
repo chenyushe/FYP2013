@@ -1,0 +1,154 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=16;
+DEPTH=16384;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0000  :   0000;
+	0001  :   8060;
+	0002  :   0160;
+	0003  :   8260;
+	0004  :   8360;
+	0005  :   8460;
+	0006  :   8560;
+	0007  :   8660;
+	0008  :   8760;
+	0009  :   B860;
+	000A  :   B960;
+	000B  :   BA60;
+	000C  :   BB60;
+	000D  :   BC60;
+	000E  :   BD60;
+	000F  :   BE60;
+	0010  :   3F60;
+	0011  :   9060;
+	0012  :   9160;
+	0013  :   9260;
+	0014  :   9360;
+	0015  :   9460;
+	0016  :   9560;
+	0017  :   9660;
+	0018  :   9760;
+	0019  :   A060;
+	001A  :   A160;
+	001B  :   A260;
+	001C  :   A360;
+	001D  :   A460;
+	001E  :   A560;
+	001F  :   A660;
+	0020  :   A760;
+	0021  :   8860;
+	0022  :   8960;
+	0023  :   8A60;
+	0024  :   8B60;
+	0025  :   8C60;
+	0026  :   8D60;
+	0027  :   8E60;
+	0028  :   8F60;
+	0029  :   B870;
+	002A  :   B970;
+	002B  :   BA70;
+	002C  :   BB70;
+	002D  :   BC70;
+	002E  :   BD70;
+	002F  :   BE70;
+	0030  :   BF70;
+	0031  :   A860;
+	0032  :   A960;
+	0033  :   AA60;
+	0034  :   AB60;
+	0035  :   2C60;
+	0036  :   AD60;
+	0037  :   AE60;
+	0038  :   AF60;
+	0039  :   B060;
+	003A  :   B160;
+	003B  :   B260;
+	003C  :   B360;
+	003D  :   B460;
+	003E  :   B560;
+	003F  :   B660;
+	0040  :   B760;
+	0041  :   9860;
+	0042  :   9960;
+	0043  :   9A60;
+	0044  :   9B60;
+	0045  :   9C60;
+	0046  :   9D60;
+	0047  :   9E60;
+	0048  :   9F60;
+	0049  :   8870;
+	004A  :   0970;
+	004B  :   8A70;
+	004C  :   8B70;
+	004D  :   0C70;
+	004E  :   8D70;
+	004F  :   8E70;
+	0050  :   8F70;
+	0051  :   B070;
+	0052  :   B170;
+	0053  :   3270;
+	0054  :   B370;
+	0055  :   B470;
+	0056  :   B570;
+	0057  :   B670;
+	0058  :   B770;
+	0059  :   0070;
+	005A  :   8170;
+	005B  :   8270;
+	005C  :   8370;
+	005D  :   8470;
+	005E  :   8570;
+	005F  :   8670;
+	0060  :   8770;
+	0061  :   9070;
+	0062  :   9170;
+	0063  :   9270;
+	0064  :   9370;
+	0065  :   9470;
+	0066  :   9570;
+	0067  :   9670;
+	0068  :   9770;
+	0069  :   A870;
+	006A  :   A970;
+	006B  :   AA70;
+	006C  :   AB70;
+	006D  :   AC70;
+	006E  :   AD70;
+	006F  :   AE70;
+	0070  :   AF70;
+	0071  :   9870;
+	0072  :   9970;
+	0073  :   9A70;
+	0074  :   9B70;
+	0075  :   9C70;
+	0076  :   9D70;
+	0077  :   9E70;
+	0078  :   9F70;
+	0079  :   A070;
+	007A  :   A170;
+	007B  :   2270;
+	007C  :   A370;
+	007D  :   A470;
+	007E  :   A570;
+	007F  :   A670;
+	0080  :   A770;
+	[0081..3FFF]  :   0000;
+END;

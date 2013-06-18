@@ -1,0 +1,154 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=16;
+DEPTH=16384;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0000  :   0000;
+	0001  :   8020;
+	0002  :   8120;
+	0003  :   8220;
+	0004  :   8320;
+	0005  :   0420;
+	0006  :   8520;
+	0007  :   8620;
+	0008  :   8720;
+	0009  :   B820;
+	000A  :   B920;
+	000B  :   BA20;
+	000C  :   BB20;
+	000D  :   BC20;
+	000E  :   BD20;
+	000F  :   BE20;
+	0010  :   BF20;
+	0011  :   9020;
+	0012  :   9120;
+	0013  :   9220;
+	0014  :   9320;
+	0015  :   9420;
+	0016  :   9520;
+	0017  :   9620;
+	0018  :   9720;
+	0019  :   A020;
+	001A  :   A120;
+	001B  :   A220;
+	001C  :   A320;
+	001D  :   A420;
+	001E  :   A520;
+	001F  :   A620;
+	0020  :   A720;
+	0021  :   8820;
+	0022  :   8920;
+	0023  :   8A20;
+	0024  :   0B20;
+	0025  :   8C20;
+	0026  :   8D20;
+	0027  :   8E20;
+	0028  :   8F20;
+	0029  :   B830;
+	002A  :   B930;
+	002B  :   BA30;
+	002C  :   BB30;
+	002D  :   BC30;
+	002E  :   BD30;
+	002F  :   BE30;
+	0030  :   BF30;
+	0031  :   A820;
+	0032  :   A920;
+	0033  :   2A20;
+	0034  :   AB20;
+	0035  :   AC20;
+	0036  :   AD20;
+	0037  :   AE20;
+	0038  :   AF20;
+	0039  :   B020;
+	003A  :   B120;
+	003B  :   B220;
+	003C  :   B320;
+	003D  :   B420;
+	003E  :   B520;
+	003F  :   3620;
+	0040  :   B720;
+	0041  :   9820;
+	0042  :   9920;
+	0043  :   9A20;
+	0044  :   9B20;
+	0045  :   9C20;
+	0046  :   9D20;
+	0047  :   9E20;
+	0048  :   9F20;
+	0049  :   8830;
+	004A  :   8930;
+	004B  :   8A30;
+	004C  :   8B30;
+	004D  :   8C30;
+	004E  :   8D30;
+	004F  :   8E30;
+	0050  :   8F30;
+	0051  :   B030;
+	0052  :   B130;
+	0053  :   B230;
+	0054  :   B330;
+	0055  :   B430;
+	0056  :   B530;
+	0057  :   B630;
+	0058  :   B730;
+	0059  :   8030;
+	005A  :   8130;
+	005B  :   8230;
+	005C  :   8330;
+	005D  :   8430;
+	005E  :   8530;
+	005F  :   8630;
+	0060  :   8730;
+	0061  :   9030;
+	0062  :   9130;
+	0063  :   9230;
+	0064  :   9330;
+	0065  :   9430;
+	0066  :   9530;
+	0067  :   9630;
+	0068  :   9730;
+	0069  :   A830;
+	006A  :   A930;
+	006B  :   AA30;
+	006C  :   AB30;
+	006D  :   AC30;
+	006E  :   AD30;
+	006F  :   AE30;
+	0070  :   AF30;
+	0071  :   9830;
+	0072  :   1930;
+	0073  :   9A30;
+	0074  :   1B30;
+	0075  :   9C30;
+	0076  :   9D30;
+	0077  :   9E30;
+	0078  :   9F30;
+	0079  :   A030;
+	007A  :   A130;
+	007B  :   A230;
+	007C  :   A330;
+	007D  :   A430;
+	007E  :   A530;
+	007F  :   A630;
+	0080  :   A730;
+	[0081..3FFF]  :   0000;
+END;

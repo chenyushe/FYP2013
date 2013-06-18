@@ -1,0 +1,154 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=16;
+DEPTH=16384;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0000  :   0000;
+	0001  :   80A0;
+	0002  :   81A0;
+	0003  :   82A0;
+	0004  :   83A0;
+	0005  :   84A0;
+	0006  :   85A0;
+	0007  :   86A0;
+	0008  :   87A0;
+	0009  :   38A0;
+	000A  :   B9A0;
+	000B  :   BAA0;
+	000C  :   BBA0;
+	000D  :   BCA0;
+	000E  :   BDA0;
+	000F  :   BEA0;
+	0010  :   BFA0;
+	0011  :   10A0;
+	0012  :   91A0;
+	0013  :   92A0;
+	0014  :   93A0;
+	0015  :   94A0;
+	0016  :   95A0;
+	0017  :   96A0;
+	0018  :   97A0;
+	0019  :   20A0;
+	001A  :   A1A0;
+	001B  :   A2A0;
+	001C  :   A3A0;
+	001D  :   24A0;
+	001E  :   A5A0;
+	001F  :   A6A0;
+	0020  :   A7A0;
+	0021  :   88A0;
+	0022  :   89A0;
+	0023  :   8AA0;
+	0024  :   8BA0;
+	0025  :   8CA0;
+	0026  :   8DA0;
+	0027  :   8EA0;
+	0028  :   8FA0;
+	0029  :   38A0;
+	002A  :   B9B0;
+	002B  :   BAB0;
+	002C  :   BBB0;
+	002D  :   BCB0;
+	002E  :   BDB0;
+	002F  :   BEB0;
+	0030  :   BFB0;
+	0031  :   A8A0;
+	0032  :   A9A0;
+	0033  :   AAA0;
+	0034  :   ABA0;
+	0035  :   ACA0;
+	0036  :   ADA0;
+	0037  :   AEA0;
+	0038  :   AFA0;
+	0039  :   B0A0;
+	003A  :   31A0;
+	003B  :   32A0;
+	003C  :   B3A0;
+	003D  :   B4A0;
+	003E  :   B5A0;
+	003F  :   B6A0;
+	0040  :   B7A0;
+	0041  :   98A0;
+	0042  :   99A0;
+	0043  :   9AA0;
+	0044  :   9BA0;
+	0045  :   9CA0;
+	0046  :   9DA0;
+	0047  :   9EA0;
+	0048  :   1FA0;
+	0049  :   88B0;
+	004A  :   89B0;
+	004B  :   8AB0;
+	004C  :   8BB0;
+	004D  :   8CB0;
+	004E  :   8DB0;
+	004F  :   8EB0;
+	0050  :   0FB0;
+	0051  :   B0B0;
+	0052  :   B1B0;
+	0053  :   B2B0;
+	0054  :   B3B0;
+	0055  :   34B0;
+	0056  :   B5B0;
+	0057  :   B6B0;
+	0058  :   B7B0;
+	0059  :   80B0;
+	005A  :   81B0;
+	005B  :   82B0;
+	005C  :   83B0;
+	005D  :   84B0;
+	005E  :   85B0;
+	005F  :   06B0;
+	0060  :   87B0;
+	0061  :   90B0;
+	0062  :   91B0;
+	0063  :   92B0;
+	0064  :   93B0;
+	0065  :   14B0;
+	0066  :   95B0;
+	0067  :   96B0;
+	0068  :   97B0;
+	0069  :   A8B0;
+	006A  :   A9B0;
+	006B  :   AAB0;
+	006C  :   ABB0;
+	006D  :   ACB0;
+	006E  :   ADB0;
+	006F  :   AEB0;
+	0070  :   AFB0;
+	0071  :   98B0;
+	0072  :   99B0;
+	0073  :   9AB0;
+	0074  :   9BB0;
+	0075  :   9CB0;
+	0076  :   9DB0;
+	0077  :   9EB0;
+	0078  :   9FB0;
+	0079  :   A0B0;
+	007A  :   A1B0;
+	007B  :   A2B0;
+	007C  :   A3B0;
+	007D  :   A4B0;
+	007E  :   A5B0;
+	007F  :   A6B0;
+	0080  :   A7B0;
+	[0081..3FFF]  :   0000;
+END;

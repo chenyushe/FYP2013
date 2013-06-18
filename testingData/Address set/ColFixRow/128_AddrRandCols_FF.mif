@@ -1,0 +1,152 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=128;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   0000FF;
+	1    :   0100FF;
+	2    :   0200FF;
+	3    :   0300FF;
+	4    :   0400FF;
+	5    :   0500FF;
+	6    :   0600FF;
+	7    :   0700FF;
+	8    :   3810FF;
+	9    :   3910FF;
+	10   :   3A10FF;
+	11   :   3B10FF;
+	12   :   3C10FF;
+	13   :   3D10FF;
+	14   :   3E10FF;
+	15   :   3F10FF;
+	16   :   1000FF;
+	17   :   1100FF;
+	18   :   1200FF;
+	19   :   1300FF;
+	20   :   1400FF;
+	21   :   1500FF;
+	22   :   1600FF;
+	23   :   1700FF;
+	24   :   2000FF;
+	25   :   2100FF;
+	26   :   2200FF;
+	27   :   2300FF;
+	28   :   2400FF;
+	29   :   2500FF;
+	30   :   2600FF;
+	31   :   2700FF;
+	32   :   0800FF;
+	33   :   0900FF;
+	34   :   0A00FF;
+	35   :   0B00FF;
+	36   :   0C00FF;
+	37   :   0D00FF;
+	38   :   0E00FF;
+	39   :   0F00FF;
+	40   :   3800FF;
+	41   :   3900FF;
+	42   :   3A00FF;
+	43   :   3B00FF;
+	44   :   3C00FF;
+	45   :   3D00FF;
+	46   :   3E00FF;
+	47   :   3F00FF;
+	48   :   2800FF;
+	49   :   2900FF;
+	50   :   2A00FF;
+	51   :   2B00FF;
+	52   :   2C00FF;
+	53   :   2D00FF;
+	54   :   2E00FF;
+	55   :   2F00FF;
+	56   :   3000FF;
+	57   :   3100FF;
+	58   :   3200FF;
+	59   :   3300FF;
+	60   :   3400FF;
+	61   :   3500FF;
+	62   :   3600FF;
+	63   :   3700FF;
+	64   :   1800FF;
+	65   :   1900FF;
+	66   :   1A00FF;
+	67   :   1B00FF;
+	68   :   1C00FF;
+	69   :   1D00FF;
+	70   :   1E00FF;
+	71   :   1F00FF;
+	72   :   0810FF;
+	73   :   0910FF;
+	74   :   0A10FF;
+	75   :   0B10FF;
+	76   :   0C10FF;
+	77   :   0D10FF;
+	78   :   0E10FF;
+	79   :   0F10FF;
+	80   :   3010FF;
+	81   :   3110FF;
+	82   :   3210FF;
+	83   :   3310FF;
+	84   :   3410FF;
+	85   :   3510FF;
+	86   :   3610FF;
+	87   :   3710FF;
+	88   :   0010FF;
+	89   :   0110FF;
+	90   :   0210FF;
+	91   :   0310FF;
+	92   :   0410FF;
+	93   :   0510FF;
+	94   :   0610FF;
+	95   :   0710FF;
+	96   :   1010FF;
+	97   :   1110FF;
+	98   :   1210FF;
+	99   :   1310FF;
+	100  :   1410FF;
+	101  :   1510FF;
+	102  :   1610FF;
+	103  :   1710FF;
+	104  :   2810FF;
+	105  :   2910FF;
+	106  :   2A10FF;
+	107  :   2B10FF;
+	108  :   2C10FF;
+	109  :   2D10FF;
+	110  :   2E10FF;
+	111  :   2F10FF;
+	112  :   1810FF;
+	113  :   1910FF;
+	114  :   1A10FF;
+	115  :   1B10FF;
+	116  :   1C10FF;
+	117  :   1D10FF;
+	118  :   1E10FF;
+	119  :   1F10FF;
+	120  :   2010FF;
+	121  :   2110FF;
+	122  :   2210FF;
+	123  :   2310FF;
+	124  :   2410FF;
+	125  :   2510FF;
+	126  :   2610FF;
+	127  :   2710FF;
+END;

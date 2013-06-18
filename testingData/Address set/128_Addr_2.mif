@@ -1,0 +1,152 @@
+-- Copyright (C) 1991-2012 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=128;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   004000;
+	1    :   014000;
+	2    :   024000;
+	3    :   034000;
+	4    :   044000;
+	5    :   054000;
+	6    :   064000;
+	7    :   074000;
+	8    :   384000;
+	9    :   394000;
+	10   :   3A4000;
+	11   :   3B4000;
+	12   :   3C4000;
+	13   :   3D4000;
+	14   :   3E4000;
+	15   :   3F4000;
+	16   :   104000;
+	17   :   114000;
+	18   :   124000;
+	19   :   134000;
+	20   :   144000;
+	21   :   154000;
+	22   :   164000;
+	23   :   174000;
+	24   :   204000;
+	25   :   214000;
+	26   :   224000;
+	27   :   234000;
+	28   :   244000;
+	29   :   254000;
+	30   :   264000;
+	31   :   274000;
+	32   :   084000;
+	33   :   094000;
+	34   :   0A4000;
+	35   :   0B4000;
+	36   :   0C4000;
+	37   :   0D4000;
+	38   :   0E4000;
+	39   :   0F4000;
+	40   :   385000;
+	41   :   395000;
+	42   :   3A5000;
+	43   :   3B5000;
+	44   :   3C5000;
+	45   :   3D5000;
+	46   :   3E5000;
+	47   :   3F5000;
+	48   :   284000;
+	49   :   294000;
+	50   :   2A4000;
+	51   :   2B4000;
+	52   :   2C4000;
+	53   :   2D4000;
+	54   :   2E4000;
+	55   :   2F4000;
+	56   :   304000;
+	57   :   314000;
+	58   :   324000;
+	59   :   334000;
+	60   :   344000;
+	61   :   354000;
+	62   :   364000;
+	63   :   374000;
+	64   :   184000;
+	65   :   194000;
+	66   :   1A4000;
+	67   :   1B4000;
+	68   :   1C4000;
+	69   :   1D4000;
+	70   :   1E4000;
+	71   :   1F4000;
+	72   :   085000;
+	73   :   095000;
+	74   :   0A5000;
+	75   :   0B5000;
+	76   :   0C5000;
+	77   :   0D5000;
+	78   :   0E5000;
+	79   :   0F5000;
+	80   :   305000;
+	81   :   315000;
+	82   :   325000;
+	83   :   335000;
+	84   :   345000;
+	85   :   355000;
+	86   :   365000;
+	87   :   375000;
+	88   :   005000;
+	89   :   015000;
+	90   :   025000;
+	91   :   035000;
+	92   :   045000;
+	93   :   055000;
+	94   :   065000;
+	95   :   075000;
+	96   :   105000;
+	97   :   115000;
+	98   :   125000;
+	99   :   135000;
+	100  :   145000;
+	101  :   155000;
+	102  :   165000;
+	103  :   175000;
+	104  :   285000;
+	105  :   295000;
+	106  :   2A5000;
+	107  :   2B5000;
+	108  :   2C5000;
+	109  :   2D5000;
+	110  :   2E5000;
+	111  :   2F5000;
+	112  :   185000;
+	113  :   195000;
+	114  :   1A5000;
+	115  :   1B5000;
+	116  :   1C5000;
+	117  :   1D5000;
+	118  :   1E5000;
+	119  :   1F5000;
+	120  :   205000;
+	121  :   215000;
+	122  :   225000;
+	123  :   235000;
+	124  :   245000;
+	125  :   255000;
+	126  :   265000;
+	127  :   275000;
+END;
