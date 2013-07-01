@@ -1,6 +1,38 @@
 FYP2013
 =======
 
-Abstract:
-Dynamic random-access memories (DRAMs) are external memory devices that have been widely used in many electronic devices. Without refreshing memory cells within the chip periodically, the data stored inside is gradually lost. However, this refresh operation will degrade performance in terms of throughput, latency and power consumption. The conventional approach is to refresh every row within the chip at a refresh rate determined by the leakiest memory cell. (which is typically quoted as 64ms in contemporary memory devices) This refresh rate is determined without consideration of the variation of memory cells' leakage characteristics with operating temperature. Furthermore, every memory cell do not have the same leakage characteristic. Thus, refresh operation adopting the conventional method unnecessarily sacrifice performance performing redundant refreshes. 
-This paper concerns the testing method for profiling an off-the-shelf DRAM memory cells' retention time distribution at different operating temperatures. The key idea is to design and implement an automatic testing method that gives consistent measurements with repeated experiments and determines memory cell retention time with high precision. This method can be easily reproduced on different boards with other DRAM chips. It will operate automatically so that all the operations and instructions will occur internally and realise the final testing result with high precision. For a SDRAM chip on an FPGA board, the testing samples show that at room temperature, 90% of the memory cells are safe with retention time of 290 seconds, 96 seconds at 50°C and 75 seconds at 75°C. Further, I have discussed some promising utilisation of this information from some complementary related works. All of them design their refresh scheme under consideration of retention time distribution that ultimately improve DRAM's performance.
+System Description:
+
+SDRAM_HW.v is the top-level memory controller. 
+
+Sdram_Controller.v is second level of the memory controller. 
+
+It is constructed with command.v, control_interface.v and sdr_data_path.v.
+
+The Sdram_Params.h is used to define the timing contraints of the memory controller.
+
+Address mif files are stored in folder 'FYP2013 / testingData / Address set /'.
+
+The AddrRam need to be pre-loaded with the mif file stored in this folder.
+
+
+Testing Results:
+
+The exel files with 'Analysed_ ' shows the analysed version of the raw data.
+
+Analysed_RowFixCol.xlsx shows the results of Random-Row Fixed-Column test.
+
+Analysed_ColFixRow.xlsx shows the results of Random-Col Fixed-Row test.
+
+Analysed_ColFixRow_1.xlsx shows the raw data for Bank 0 3D retention time diagram.
+
+Analysed_Precision.xlsx shows the precision results.
+
+Analysed_Temperature.xlsx shows the results of 3 temperature test.
+
+Analysed_3TempComparison.xlsx combine 3 temperature results.
+
+
+ModifyResult.m is the matlab file used to sort the raw data collected from QuartusII.
+
+All the raw data collected from QuartusII are stored in "result" folder.
