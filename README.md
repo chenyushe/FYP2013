@@ -35,4 +35,4 @@ Analysed_3TempComparison.xlsx combine 3 temperature results.
 
 ModifyResult.m is the matlab file used to sort the raw data collected from QuartusII.
 
-All the raw data collected from QuartusII are stored in "result" folder.
+All the raw data collected from QuartusII are stored in "FYP2013 / testingData / result /" folder.
